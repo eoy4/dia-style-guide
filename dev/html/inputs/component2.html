@@ -1,0 +1,125 @@
+<div id="Component2" class="page-content col-md-9">
+	<a href="index.html" class="back-button">&lt;&nbsp;Home</a>
+	<ul class="breadcrumb">
+		<li><a href="index.html">Encore DPP DIA - DRG</a></li>
+		<li>Type &amp; Controls - Inputs &amp; Buttons</li>
+	</ul>
+
+	<h1>Type &amp; Controls</h1>
+
+	<h2>Inputs &amp; Buttons</h2>
+
+  <p>The controls, inputs, and buttons of our UIs should adhere to our principles, taking into account the following:</p>
+
+  <ul>
+    <li>Consistency</li>
+    <ul>
+      <li>Maintain consistent format across different tools and forms throughout our site.</li>
+      <li>Buttons and inputs shuld have a consistent look and feel everywhere in our site.</li>
+    </ul>
+    <li>Visibility and User Focus</li>
+    <ul>
+      <li>Using the brand color palette, use different colors for buttons to indicate importance and intent.</li>
+    </ul>
+    <li>Instant Feedback</li>
+    <ul>
+      <li>Buttons have a subtle hover animation</li>
+      <li>If field sets or controls need to appear/disappear, they should do so with a simple animation to guide the user's attention.</li>
+    </ul>
+    <li>Structure</li>
+    <ul>
+      <li>Observe the Structure principle when designing forms and controls, keeping elements together or sepparate according to function and flow.</li>
+    </ul>
+    <li>Simplicity</li>
+    <ul>
+      <li>Do not over-complicate forms or controls. Keep the functionality easy to use and simple to understand.</li>
+    </ul>
+  </ul>
+
+  <h3>Inputs and Buttons examples</h3>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="card form-container">
+				<div class="text-container">
+          <form action="#">
+            <div class="form-row required">
+              <label for="Input1">Text Field (required)</label>
+              <input type="text" id="Input1" name="input1" required="required" />
+            </div>
+            <div class="form-row disabled">
+              <label for="Input2">Text Field (disabled)</label>
+              <input type="text" id="Input2" name="input2" disabled="disabled" />
+            </div>
+            <div class="form-row ">
+              <label for="Input3">Drop down</label>
+              <div class="custom-select">
+                <select name="input3" id="Input3">
+                  <option value="">Choose an option</option>
+                  <option value="One">One</option>
+                  <option value="Two">Two</option>
+                  <option value="Three">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <label>Radio group</label>
+
+              <div class="inline-group radio-group">
+                <input type="radio" id="Input4_1" name="input4" value="Option 1" />
+                <label for="Input4_1">Option 1</label>
+                <input type="radio" id="Input4_2" name="input4" value="Option 2" />
+                <label for="Input4_2">Option 2</label>
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="Input5">Text box and button</label>
+              <input type="text" name="input5" id="Input5" class="small-input" />
+              <button id="SubmitText" >Button</button>
+            </div>
+
+            <div class="form-row compact centered">
+              <button id="BlueButton">Blue Button</button>
+              <button class="green" id="GreenButton">Green Button</button>
+              <button class="gray" id="GrayButton">Gray Button</button>
+              <button class="red" id="RedButton">Red Button</button>
+            </div>
+            <div class="form-row compact centered">
+              <button class="round">-</button>
+              <button class="round green">+</button>
+              <button class="round gray">-</button>
+              <button class="round red">+</button>
+            </div>
+          </form>
+        </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="form-container">
+				<h2>Buttons outside Cards</h2>
+				<p>When using buttons outside cards (or other 3D-like containers), you can choose to use 3D buttons.  CSS: <code>class="button3d"</code></p>
+				<form action="#">
+					<div class="form-row compact centered">
+						<button class="button3d" id="BlueButton">Blue 3D Button</button>
+						<button class="green button3d" id="GreenButton">Green 3D Button</button>
+						<button class="gray button3d" id="GrayButton">Gray 3D Button</button>
+						<button class="red button3d" id="RedButton">Red 3D Button</button>
+					</div>
+					<div class="form-row compact centered">
+						<button class="round button3d">-</button>
+						<button class="round green button3d">+</button>
+						<button class="round gray button3d">-</button>
+						<button class="round red button3d">+</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="pagination">
+	<a href="tables.html" class="button button3d gray">&lt; Tabular Data</a>
+	<a href="icons.html" class="button button3d">Icons &gt;</a>
+</div>

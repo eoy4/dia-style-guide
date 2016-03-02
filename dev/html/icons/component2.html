@@ -1,0 +1,200 @@
+<div id="Component2" class="page-content col-md-9">
+	<a href="index.html" class="back-button">&lt;&nbsp;Home</a>
+	<ul class="breadcrumb">
+		<li><a href="index.html">Encore DPP DIA - DRG</a></li>
+		<li>Iconography - Icons</li>
+	</ul>
+
+	<div class="row">
+    <div class="col-xs-12">
+      <h1>Iconography</h1>
+
+      <h2>Icons</h2>
+
+      <p>We will use the Material Design Icons from Google. These icons are free and open source, and have a simple, modern, bold, and appealing design.  There are more than 900 icons to choose from, and they can be styled with CSS, and are vector-based, so they look great in any resolution, in any screen.</p>
+
+      <div class="card drg-box">
+        <div class="text-container">
+          <p>Google's Material Icons can be downloaded and used in a variety of formats. There are <strong>png</strong> images, <strong>svg</strong> images, and a <strong>web font</strong>.  We are implementing the web font, hosted locally as opposed to Google's CDN. To download the web font, go <a href="https://github.com/google/material-design-icons/tree/master/iconfont" target="_blank">here</a>. Here is an example of the CSS needed for this:</p>
+          <div class="code-container">
+<pre><code>@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/material-icons/MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url("fonts/material-icons/MaterialIcons-Regular.woff2") format('woff2'),
+       url("fonts/material-icons/MaterialIcons-Regular.woff") format('woff'),
+       url("fonts/material-icons/MaterialIcons-Regular.ttf") format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}</code></pre>
+          </div>
+
+          <p>An their HTML usage is like this:</p>
+          <div class="code-container">
+<pre><code>&lt;!-- This will only work on modern browsers (IE10+) --&gt;
+&lt;i class="material-icons"&gt;credit_card&lt;/i&gt;
+
+&lt;!-- This will work on all browsers --&gt;
+&lt;i class="material-icons"&gt;&amp;#xE870;&lt;/i&gt;
+</code></pre>
+          </div>
+
+          <p>To view all available icons and to read about their usage, please refer to <a target="_blank" href="https://design.google.com/icons/">this page</a> and <a target="_blank" href="http://google.github.io/material-design-icons/">this guide</a>.</p>
+        </div>
+      </div>
+
+      <div class="card drg-box">
+        <div class="text-container">
+          <h3>Some Examples</h3>
+        </div>
+
+        <div class="icon-samples">
+          <div class="icon-sample">
+            <i class="material-icons">&#xE851;</i>
+            <p>Account Box </p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE870;</i>
+            <p>Credit Card</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE86C;</i>
+            <p>Check Circle</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE876;</i>
+            <p>Done</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE887;</i>
+            <p>Help</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE8FD;</i>
+            <p>Help Outline</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE8FD;</i>
+            <p>Home</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE88E;</i>
+            <p>Info</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE88F;</i>
+            <p>Info Outline</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE8B6;</i>
+            <p>Search</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE8B8;</i>
+            <p>Settings</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE8CC;</i>
+            <p>Shopping Cart</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE8FF;</i>
+            <p>Zoom In</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE900;</i>
+            <p>Zoom Out</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE000;</i>
+            <p>Error</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE0B0;</i>
+            <p>Phone</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE0BE;</i>
+            <p>Email</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE147;</i>
+            <p>Add Circle</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE148;</i>
+            <p>Add Circle Outline</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE157;</i>
+            <p>Link</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE161;</i>
+            <p>Save</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE226;</i>
+            <p>Attach File</p>
+          </div>
+
+          <div class="icon-sample">
+            <i class="material-icons">&#xE7FD;</i>
+            <p>Person</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pagination">
+	<a href="inputs.html" class="button button3d gray">&lt; Inputs &amp; Buttons</a>
+</div>

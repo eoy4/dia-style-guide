@@ -1,0 +1,130 @@
+.drg-box {
+
+	.code-container {
+		background: #444;
+		color: $white;
+    margin-bottom: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+		padding: 10px;
+	}
+
+	code {
+		font-family: Courier, 'New Courier', monospace;
+		font-size: 14px;
+	}
+
+	a.add-card {
+		display: block;
+		margin: 55px auto;
+	}
+
+	&.drg-colors {
+    padding: 20px;
+
+		&:before,
+		table {
+			display: inline-block;
+			margin-bottom: 20px;
+			vertical-align: top;
+		}
+
+		&:before {
+			background: $black;
+			box-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+			content: " ";
+			height: 64px;
+			margin-right: 2%;
+			width: 20%;
+		}
+
+		&.primary-blue:before {
+			background: $primaryBlue;
+		}
+
+		&.light-blue:before {
+			background: $lightBlue;
+		}
+
+		&.dark-blue:before {
+			background: $darkBlue;
+		}
+
+		&.primary-green:before {
+			background: $primaryGreen;
+		}
+
+		&.light-green:before {
+			background: $lightGreen;
+		}
+
+		&.dark-green:before {
+			background: $darkGreen;
+		}
+
+		&.text-color:before {
+			background: $textColor;
+		}
+
+		&.disabled-color:before {
+			background: $disabledGray;
+		}
+
+		&.white-color:before {
+			background: $white;
+		}
+
+		&.black-color:before {
+			background: $black;
+		}
+
+		&.bg-color:before {
+			background: $bgColor1;
+		}
+
+		&.light-gray-color:before {
+			background: $lightGray;
+		}
+
+		&.red-color:before {
+			background: $red;
+		}
+
+		&.pink-color:before {
+			background: $pink;
+		}
+
+		table {
+			text-align: left;
+			width: 75%;
+
+			@media (max-width: 991px) {
+				font-size: 14px;
+			}
+
+			td {
+				padding: 0 5px 0 0;
+
+				&:last-child {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+
+  .icon-samples {
+    text-align: center;
+  }
+
+  .icon-sample {
+    display: inline-block;
+    margin: 5px;
+    padding: 15px 0;
+    text-align: center;
+    width: 160px;
+
+    i {
+      font-size: 60px;
+    }
+  }
+}
